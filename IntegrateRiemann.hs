@@ -1,4 +1,6 @@
-integrateRiemann :: (Double -> Double) 
+module IntegrateRiemann where
+
+integrateRiemann :: (Double -> Double)
                    -> Double          -- t0
                    -> Double          -- t
                    -> Int             -- N

@@ -1,3 +1,5 @@
+module FindIndex where
+
 findIndex :: Ord a => a         -- t
              -> [a]             -- Tn's
              -> Int             -- Index

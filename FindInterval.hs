@@ -1,3 +1,5 @@
+module FindInterval where
+
 -- Returns the index where Tn<=t<Tn+1
 findInterval :: [Double] -> Double -> Int -> Int -> Int
 findInterval ts t low high
